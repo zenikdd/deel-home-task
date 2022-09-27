@@ -1,0 +1,14 @@
+header {
+    background-color: lightblue;
+    display: flex !important;
+    padding: 0 10px 0 10px;
+    a {
+        padding: 20px;
+        color: #5858ad;
+        height: 100%;
+        font-weight: bold;
+        &:hover{
+            background-color: #96c1d2;
+        }
+    }
+}

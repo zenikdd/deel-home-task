@@ -1,0 +1,24 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    .parent {
+        display: flex;
+        margin-top: 10px;
+        width: 100%;
+        flex-wrap: wrap;
+        .child {
+            margin: 10px;
+            box-shadow: 0 0 20px 8px #d0d0d0;
+            border-radius: 20px;
+            .content {
+                padding: 15px;
+                border-radius: 20px;
+                background-color: white;
+            }
+        }
+    }
+    h1{
+        margin: 10px 0 0 10px;
+    }
+}
